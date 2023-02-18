@@ -3,7 +3,7 @@ pipeline {
     environment {
         //be sure to replace "bhavukm" with your own Docker Hub username
         DOCKER_IMAGE_NAME = "bhavukm/train-schedule"
-    }
+      }
         stage('Build Docker Image') {
             when {
                 branch 'master'
