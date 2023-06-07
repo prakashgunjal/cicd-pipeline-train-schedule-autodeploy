@@ -1,8 +1,8 @@
 pipeline {
     agent any
     environment {
-        //be sure to replace "bhavukm" with your own Docker Hub username
-        DOCKER_IMAGE_NAME = "docker push sonigara/webbapps:tagname"
+        //be sure to replace "prakash" with your own Docker Hub username
+        DOCKER_IMAGE_NAME = "docker push prakshgunjal/cicdpipeline:tagname"
 
     }
     stages {
